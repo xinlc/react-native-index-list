@@ -37,7 +37,8 @@
     "react-native": "*"
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "merge": "^1.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

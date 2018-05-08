@@ -1,0 +1,671 @@
+
+/* eslint-disable*/
+/**
+ * 数据生成工具在 scripts/position/generate.js
+ * atoz 需要添加手动添加 "history": [[]],"hot": [[]]
+ */
+const data = {
+  list: [{
+			"id": "1000",
+			"name": "吧员",
+			"PY": ["bayuan", "bayun"],
+			"firstPY": ["by"]
+	}, {
+			"id": "1001",
+			"name": "保安",
+			"PY": ["baoan"],
+			"firstPY": ["ba"]
+	}, {
+			"id": "1002",
+			"name": "保洁",
+			"PY": ["baojie"],
+			"firstPY": ["bj"]
+	}, {
+			"id": "1003",
+			"name": "部长",
+			"PY": ["buzhang"],
+			"firstPY": ["bz"]
+	}, {
+			"id": "1004",
+			"name": "财务经理",
+			"PY": ["caiwujingli"],
+			"firstPY": ["cwjl"]
+	}, {
+			"id": "1005",
+			"name": "财务总监",
+			"PY": ["caiwuzongjian"],
+			"firstPY": ["cwzj"]
+	}, {
+			"id": "1006",
+			"name": "采购",
+			"PY": ["caigou"],
+			"firstPY": ["cg"]
+	}, {
+			"id": "1007",
+			"name": "茶艺师",
+			"PY": ["chayishi"],
+			"firstPY": ["cys"]
+	}, {
+			"id": "1008",
+			"name": "成本会计",
+			"PY": ["chengbenhuiji", "chengbenkuaiji"],
+			"firstPY": ["cbhj", "cbkj"]
+	}, {
+			"id": "1009",
+			"name": "厨师",
+			"PY": ["chushi"],
+			"firstPY": ["cs"]
+	}, {
+			"id": "1010",
+			"name": "厨师长",
+			"PY": ["chushichang", "chushizhang"],
+			"firstPY": ["csc", "csz"]
+	}, {
+			"id": "1011",
+			"name": "传菜",
+			"PY": ["chuancai", "zhuancai"],
+			"firstPY": ["cc", "zc"]
+	}, {
+			"id": "1012",
+			"name": "刺身",
+			"PY": ["cishen"],
+			"firstPY": ["cs"]
+	}, {
+			"id": "1013",
+			"name": "打荷",
+			"PY": ["dahe"],
+			"firstPY": ["dh"]
+	}, {
+			"id": "1014",
+			"name": "点菜员",
+			"PY": ["diancaiyuan", "diancaiyun"],
+			"firstPY": ["dcy"]
+	}, {
+			"id": "1015",
+			"name": "点心",
+			"PY": ["dianxin"],
+			"firstPY": ["dx"]
+	}, {
+			"id": "1016",
+			"name": "店长",
+			"PY": ["dianchang", "dianzhang"],
+			"firstPY": ["dc", "dz"]
+	}, {
+			"id": "1017",
+			"name": "服务员",
+			"PY": ["fuwuyuan"],
+			"firstPY": ["fwy"]
+	}, {
+			"id": "1018",
+			"name": "供货商",
+			"PY": ["gonghuoshang"],
+			"firstPY": ["ghs"]
+	}, {
+			"id": "1019",
+			"name": "锅底",
+			"PY": ["guodi"],
+			"firstPY": ["gd"]
+	}, {
+			"id": "1020",
+			"name": "烘焙师",
+			"PY": ["hongbeishi"],
+			"firstPY": ["hbs"]
+	}, {
+			"id": "1021",
+			"name": "稽核",
+			"PY": ["jihe"],
+			"firstPY": ["jh"]
+	}, {
+			"id": "1022",
+			"name": "煎档",
+			"PY": ["jiandang"],
+			"firstPY": ["jd"]
+	}, {
+			"id": "1023",
+			"name": "酒店经营者",
+			"PY": ["jiudianjingyingzhe"],
+			"firstPY": ["jdjyz"]
+	}, {
+			"id": "1024",
+			"name": "酒店投资人",
+			"PY": ["jiudiantouziren"],
+			"firstPY": ["jdtzr"]
+	}, {
+			"id": "1025",
+			"name": "酒店总经理",
+			"PY": ["jiudianzongjingli"],
+			"firstPY": ["jdzjl"]
+	}, {
+			"id": "1026",
+			"name": "咖啡师",
+			"PY": ["kafeishi", "gafeishi"],
+			"firstPY": ["kfs", "gfs"]
+	}, {
+			"id": "1027",
+			"name": "烤鸭师",
+			"PY": ["kaoyashi"],
+			"firstPY": ["kys"]
+	}, {
+			"id": "1028",
+			"name": "库管",
+			"PY": ["kuguan"],
+			"firstPY": ["kg"]
+	}, {
+			"id": "1029",
+			"name": "会计",
+			"PY": ["kuaiji"],
+			"firstPY": ["kj"]
+	}, {
+			"id": "1030",
+			"name": "拉面师",
+			"PY": ["lamianshi"],
+			"firstPY": ["lms"]
+	}, {
+			"id": "1031",
+			"name": "凉菜",
+			"PY": ["liangcai"],
+			"firstPY": ["lc"]
+	}, {
+			"id": "1032",
+			"name": "领班",
+			"PY": ["lingban"],
+			"firstPY": ["lb"]
+	}, {
+			"id": "1033",
+			"name": "领位",
+			"PY": ["lingwei"],
+			"firstPY": ["lw"]
+	}, {
+			"id": "1034",
+			"name": "楼层经理",
+			"PY": ["loucengjingli"],
+			"firstPY": ["lcjl"]
+	}, {
+			"id": "1035",
+			"name": "炉头",
+			"PY": ["lutou"],
+			"firstPY": ["lt"]
+	}, {
+			"id": "1036",
+			"name": "卤水",
+			"PY": ["lushui"],
+			"firstPY": ["ls"]
+	}, {
+			"id": "1037",
+			"name": "面点",
+			"PY": ["miandian"],
+			"firstPY": ["md"]
+	}, {
+			"id": "1038",
+			"name": "刨肉师",
+			"PY": ["paoroushi", "baoroushi"],
+			"firstPY": ["prs", "brs"]
+	}, {
+			"id": "1039",
+			"name": "品牌策划总监",
+			"PY": ["pinpaicehuazongjian"],
+			"firstPY": ["ppchzj"]
+	}, {
+			"id": "1040",
+			"name": "前厅经理",
+			"PY": ["qiantingjingli"],
+			"firstPY": ["qtjl"]
+	}, {
+			"id": "1041",
+			"name": "切配",
+			"PY": ["qiepei"],
+			"firstPY": ["qp"]
+	}, {
+			"id": "1042",
+			"name": "人事",
+			"PY": ["renshi"],
+			"firstPY": ["rs"]
+	}, {
+			"id": "1043",
+			"name": "上（什）杂",
+			"PY": ["shang（shi）za", "shang（shen）za"],
+			"firstPY": ["s（s）z"]
+	}, {
+			"id": "1044",
+			"name": "烧烤师",
+			"PY": ["shaokaoshi"],
+			"firstPY": ["sks"]
+	}, {
+			"id": "1045",
+			"name": "烧腊",
+			"PY": ["shaola", "shaoxi"],
+			"firstPY": ["sl", "sx"]
+	}, {
+			"id": "1046",
+			"name": "设计",
+			"PY": ["sheji"],
+			"firstPY": ["sj"]
+	}, {
+			"id": "1047",
+			"name": "食雕",
+			"PY": ["shidiao", "sidiao", "yidiao"],
+			"firstPY": ["sd", "yd"]
+	}, {
+			"id": "1048",
+			"name": "收银员",
+			"PY": ["shouyinyuan", "shouyinyun"],
+			"firstPY": ["syy"]
+	}, {
+			"id": "1049",
+			"name": "水台",
+			"PY": ["shuitai"],
+			"firstPY": ["st"]
+	}, {
+			"id": "1050",
+			"name": "调酒师",
+			"PY": ["tiaojiushi", "diaojiushi", "zhoujiushi"],
+			"firstPY": ["tjs", "djs", "zjs"]
+	}, {
+			"id": "1051",
+			"name": "铁板",
+			"PY": ["tieban"],
+			"firstPY": ["tb"]
+	}, {
+			"id": "1052",
+			"name": "万能工",
+			"PY": ["wannenggong"],
+			"firstPY": ["wng"]
+	}, {
+			"id": "1053",
+			"name": "洗碗工",
+			"PY": ["xiwangong", "xianwangong"],
+			"firstPY": ["xwg"]
+	}, {
+			"id": "1054",
+			"name": "小时工",
+			"PY": ["xiaoshigong"],
+			"firstPY": ["xsg"]
+	}, {
+			"id": "1055",
+			"name": "行政文员",
+			"PY": ["xingzhengwenyuan"],
+			"firstPY": ["xzwy"]
+	}, {
+			"id": "1056",
+			"name": "行政主厨",
+			"PY": ["xingzhengzhuchu"],
+			"firstPY": ["xzzc"]
+	}, {
+			"id": "1057",
+			"name": "选址总监",
+			"PY": ["xuanzhizongjian"],
+			"firstPY": ["xzzj"]
+	}, {
+			"id": "1058",
+			"name": "学徒",
+			"PY": ["xuetu"],
+			"firstPY": ["xt"]
+	}, {
+			"id": "1059",
+			"name": "研发总监",
+			"PY": ["yanfazongjian"],
+			"firstPY": ["yfzj"]
+	}, {
+			"id": "1060",
+			"name": "验货",
+			"PY": ["yanhuo"],
+			"firstPY": ["yh"]
+	}, {
+			"id": "1061",
+			"name": "迎宾",
+			"PY": ["yingbin"],
+			"firstPY": ["yb"]
+	}, {
+			"id": "1062",
+			"name": "营销经理",
+			"PY": ["yingxiaojingli"],
+			"firstPY": ["yxjl"]
+	}, {
+			"id": "1063",
+			"name": "运营总监",
+			"PY": ["yunyingzongjian"],
+			"firstPY": ["yyzj"]
+	}, {
+			"id": "1064",
+			"name": "杂工",
+			"PY": ["zagong"],
+			"firstPY": ["zg"]
+	}, {
+			"id": "1065",
+			"name": "择菜",
+			"PY": ["zhaicai"],
+			"firstPY": ["zc"]
+	}, {
+			"id": "1066",
+			"name": "招商加盟总监",
+			"PY": ["zhaoshangjiamengzongjian"],
+			"firstPY": ["zsjmzj"]
+	}, {
+			"id": "1067",
+			"name": "砧板/切墩",
+			"PY": ["zhenban/qiedun"],
+			"firstPY": ["zb/qd"]
+	}, {
+			"id": "1068",
+			"name": "主管",
+			"PY": ["zhuguan"],
+			"firstPY": ["zg"]
+	}, {
+			"id": "1069",
+			"name": "主管会计",
+			"PY": ["zhuguankuaiji"],
+			"firstPY": ["zgkj"]
+	}, {
+		"id": "1070",
+		"name": "送餐员",
+		"PY": ["songcanyuan"],
+		"firstPY": ["scy"]
+	}],
+  atoz: {
+	"history": [[]],
+	// "hot": [[
+	// 	{"id": "1009","name": "厨师"},
+	// 	{"id": "1017","name": "服务员"},
+	// 	{"id": "1054","name": "小时工"},
+	// 	{"id": "1053","name": "洗碗工"},
+	// 	{"id": "1070","name": "送餐员"}
+	// ]],
+    "B": [{
+        "id": "1000",
+        "name": "吧员"
+    }, {
+        "id": "1001",
+        "name": "保安"
+    }, {
+        "id": "1002",
+        "name": "保洁"
+    }, {
+        "id": "1003",
+        "name": "部长"
+    }],
+    "C": [{
+        "id": "1004",
+        "name": "财务经理"
+    }, {
+        "id": "1005",
+        "name": "财务总监"
+    }, {
+        "id": "1006",
+        "name": "采购"
+    }, {
+        "id": "1007",
+        "name": "茶艺师"
+    }, {
+        "id": "1008",
+        "name": "成本会计"
+    }, {
+        "id": "1009",
+        "name": "厨师"
+    }, {
+        "id": "1010",
+        "name": "厨师长"
+    }, {
+        "id": "1011",
+        "name": "传菜"
+    }, {
+        "id": "1012",
+        "name": "刺身"
+    }],
+    "D": [{
+        "id": "1013",
+        "name": "打荷"
+    }, {
+        "id": "1014",
+        "name": "点菜员"
+    }, {
+        "id": "1015",
+        "name": "点心"
+    }, {
+        "id": "1016",
+        "name": "店长"
+    }],
+    "F": [{
+        "id": "1017",
+        "name": "服务员"
+    }],
+    "G": [{
+        "id": "1018",
+        "name": "供货商"
+    }, {
+        "id": "1019",
+        "name": "锅底"
+    }],
+    "H": [{
+        "id": "1020",
+        "name": "烘焙师"
+    }],
+    "J": [{
+        "id": "1021",
+        "name": "稽核"
+    }, {
+        "id": "1022",
+        "name": "煎档"
+    }, {
+        "id": "1023",
+        "name": "酒店经营者"
+    }, {
+        "id": "1024",
+        "name": "酒店投资人"
+    }, {
+        "id": "1025",
+        "name": "酒店总经理"
+    }],
+    "K": [{
+        "id": "1026",
+        "name": "咖啡师"
+    }, {
+        "id": "1027",
+        "name": "烤鸭师"
+    }, {
+        "id": "1028",
+        "name": "库管"
+    }, {
+        "id": "1029",
+        "name": "会计"
+    }],
+    "L": [{
+        "id": "1030",
+        "name": "拉面师"
+    }, {
+        "id": "1031",
+        "name": "凉菜"
+    }, {
+        "id": "1032",
+        "name": "领班"
+    }, {
+        "id": "1033",
+        "name": "领位"
+    }, {
+        "id": "1034",
+        "name": "楼层经理"
+    }, {
+        "id": "1035",
+        "name": "炉头"
+    }, {
+        "id": "1036",
+        "name": "卤水"
+    }],
+    "M": [{
+        "id": "1037",
+        "name": "面点"
+    }],
+    "P": [{
+        "id": "1038",
+        "name": "刨肉师"
+    }, {
+        "id": "1039",
+        "name": "品牌策划总监"
+    }],
+    "Q": [{
+        "id": "1040",
+        "name": "前厅经理"
+    }, {
+        "id": "1041",
+        "name": "切配"
+    }],
+    "R": [{
+        "id": "1042",
+        "name": "人事"
+    }],
+    "S": [{
+        "id": "1043",
+        "name": "上（什）杂"
+    }, {
+        "id": "1044",
+        "name": "烧烤师"
+    }, {
+        "id": "1045",
+        "name": "烧腊"
+    }, {
+        "id": "1046",
+        "name": "设计"
+    }, {
+        "id": "1047",
+        "name": "食雕"
+    }, {
+        "id": "1048",
+        "name": "收银员"
+    }, {
+        "id": "1049",
+        "name": "水台"
+    },
+	{
+        "id": "1070",
+        "name": "送餐员"
+    }],
+    "T": [{
+        "id": "1050",
+        "name": "调酒师"
+    }, {
+        "id": "1051",
+        "name": "铁板"
+    }],
+    "W": [{
+        "id": "1052",
+        "name": "万能工"
+    }],
+    "X": [{
+        "id": "1053",
+        "name": "洗碗工"
+    }, {
+        "id": "1054",
+        "name": "小时工"
+    }, {
+        "id": "1055",
+        "name": "行政文员"
+    }, {
+        "id": "1056",
+        "name": "行政主厨"
+    }, {
+        "id": "1057",
+        "name": "选址总监"
+    }, {
+        "id": "1058",
+        "name": "学徒"
+    }],
+    "Y": [{
+        "id": "1059",
+        "name": "研发总监"
+    }, {
+        "id": "1060",
+        "name": "验货"
+    }, {
+        "id": "1061",
+        "name": "迎宾"
+    }, {
+        "id": "1062",
+        "name": "营销经理"
+    }, {
+        "id": "1063",
+        "name": "运营总监"
+    }],
+    "Z": [{
+        "id": "1064",
+        "name": "杂工"
+    }, {
+        "id": "1065",
+        "name": "择菜"
+    }, {
+        "id": "1066",
+        "name": "招商加盟总监"
+    }, {
+        "id": "1067",
+        "name": "砧板/切墩"
+    }, {
+        "id": "1068",
+        "name": "主管"
+    }, {
+        "id": "1069",
+        "name": "主管会计"
+    }]
+  },
+  atozInit: {       // 初始化加载的数据，避免切换页面卡顿
+	"history": [[]],
+    "B": [{
+        "id": "1000",
+        "name": "吧员"
+    }, {
+        "id": "1001",
+        "name": "保安"
+    }, {
+        "id": "1002",
+        "name": "保洁"
+    }, {
+        "id": "1003",
+        "name": "部长"
+    }],
+    "C": [{
+        "id": "1004",
+        "name": "财务经理"
+    }, {
+        "id": "1005",
+        "name": "财务总监"
+    }, {
+        "id": "1006",
+        "name": "采购"
+    }, {
+        "id": "1007",
+        "name": "茶艺师"
+    }, {
+        "id": "1008",
+        "name": "成本会计"
+    }, {
+        "id": "1009",
+        "name": "厨师"
+    }, {
+        "id": "1010",
+        "name": "厨师长"
+    }, {
+        "id": "1011",
+        "name": "传菜"
+    }, {
+        "id": "1012",
+        "name": "刺身"
+    }],
+    "D": [],
+    "F": [],
+    "G": [],
+    "H": [],
+    "J": [],
+    "K": [],
+    "L": [],
+    "M": [],
+    "P": [],
+    "Q": [],
+    "R": [],
+    "S": [],
+    "T": [],
+    "W": [],
+    "X": [],
+    "Y": [],
+    "Z": []
+  }
+};
+
+
+export default data;
