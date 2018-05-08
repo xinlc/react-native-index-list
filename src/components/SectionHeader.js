@@ -1,4 +1,9 @@
 
+/**
+ * Copyright (c) 2015 Johannes Lumpe
+ * Copyright (c) 2018 Leo Xin
+ */
+
 import React, { PureComponent } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import PropTypes from 'prop-types';
