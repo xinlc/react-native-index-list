@@ -1,4 +1,4 @@
-# react-native-selectablesectionlistview
+# [react-native-selectablesectionlistview](https://github.com/johanneslumpe/react-native-selectablesectionlistview)
 
 A Listview with a sidebar to directly jump to sections.
 
