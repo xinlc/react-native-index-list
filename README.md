@@ -19,3 +19,31 @@ $ npm install --save react-native-index-list
 ## Usage
 
 [See the example](./examples/Basic/App.js)
+
+## Customized
+
+```js
+import { SelectableSectionsListView } from 'react-native-index-list';
+
+...
+  render() {
+    return (
+      <SelectableSectionsListView
+        data={this.state.data}
+        cell={Cell}
+        sectionHeader={SectionHeader}
+        sectionListItem={SectionListItem}
+        sectionListStyle={styles.sectionListStyle}
+        cellProps={{ pressCell: this._pressCell, selected: this.state.selected }}
+        cellHeight={45}
+        sectionHeaderHeight={30}
+        initialListSize={100}
+        useDynamicHeights
+        enableEmptySections
+      />
+    );
+  }
+...
+
+```
+> More available `SelectableSectionsListView` API can be found at [readme](./src/components/README.md)
